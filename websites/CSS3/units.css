@@ -1,0 +1,64 @@
+html {
+    font-size:15px;
+}
+section {
+    background-color: #6d6875;
+    width: 800px;
+    height: 800px;
+}
+
+div{
+    background-color:#e5989b;
+    width: 50%;
+    height: 50%;
+    /*width and height reference the parents width and height*/
+}
+h1 {
+    font-size: 40px;
+    border: 1px solid black;
+    line-height: 200%;
+    /* line height is referential towards itself*/
+}
+h2 {
+    font-size: 2em;
+    margin-left: 1em;
+    /*margin is also relative to ems, so as you increase font size,
+    it will increase as well*/
+}
+/*^ inherits from V*/
+article {
+    font-size:20px;
+}
+p {
+    font-size:1em;
+}
+h3{
+    font-size:1.5em;
+}
+button{
+    font-size:30px;
+    padding:0 30px;
+    border-radius:15px;
+    background-color:forestgreen;
+    color:white;
+    /*with pixels there is no relativity, things do not scale together 
+    when they are changed, with ems, all aspects of the buttons
+    shape will scale when the article pixel size is changed*/
+}
+ul {
+    font-size:1.5em;
+    /*ems will stack if there are multiple elements they are dictated
+    inside of*/
+
+    /*rems dont do this, they are dictated by root element */
+}
+
+#rems h3 {
+    font-size: 2rem;
+}
+#rems h2 {
+    font-size: 3rem;
+}
+#rems ul {
+    font-size: 1rem;
+}

@@ -1,0 +1,26 @@
+h2{
+    color:teal;
+    background-color: plum;
+}
+button {
+    color:magenta;
+    /*text color not background*/
+    background-color: aquamarine;
+}
+p {
+    color: #808000;
+    background-color: blanchedalmond;
+    letter-spacing: 2px;
+    /*background isnt just for color, dont use it*/
+}
+h1 {
+    text-align: left;
+    font-weight: 900; /*bold extra bold normal*/
+    text-decoration: underline wavy springgreen;
+    line-height: 2;
+    /* 1px is not the same size on all screens*/
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif
+    /* the ones after the comments are fallback fonts*/
+    
+}

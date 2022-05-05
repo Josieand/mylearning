@@ -1,0 +1,69 @@
+img {
+    width:30%;
+    margin: calc(10%/6);
+   /* margin:1.6666666%;*/
+    /*6 total areas where space between images needs to be taken into account*/
+    /*10/6=1.666666*/
+    /*space is now evenly divided*/
+
+
+}
+
+nav{
+
+    font-family:'Raleway', sans-serif;
+    font-size:15px;
+    border-bottom:2px solid #f1f1f1;
+    width: 30%;
+    margin-left:calc(10%/6);
+    padding: 20px 0;
+
+}
+
+.first{
+
+    color:black;
+    margin-left:calc(10%/6);
+    position: absolute;
+    display:inline-block;
+    padding:20px 0;
+
+}
+
+.second{
+
+    color:rgba(75, 68, 68, 0.897);
+    padding:27px 0;
+
+}
+footer{
+    font-size:xx-small;
+}
+/*this is meant to look like pretentious crap*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    font-weight:lighter;
+}

@@ -1,0 +1,33 @@
+h1{
+    background-color: paleturquoise;
+    border: 1px solid black;
+    width:300px;
+    padding:50px;
+    margin:50px;
+    height:200px;
+    /*everything works here because it is not inline*/
+    /* display inline makes everything on 1 line*/
+    /*can do the opposite and do display block and make spans go on new lines*/
+    
+}
+
+span {
+    background-color: palevioletred;
+    border: 1px solid rgb(0, 0, 0);
+    /*width:500px; doesnt work, if it had inline display width/height are ignored*/
+    margin:50px;
+    padding:50px;
+
+}
+
+div{
+    height:200px;
+    width:200px;
+    background-color: olivedrab;
+    border: 1px solid black;
+    /*turns into a black square, width and height aren't res-
+    pected for an inline element;display:inline; */
+    display:inline-block;
+    margin:50px;
+    /*display:none makes things invisible*/
+}

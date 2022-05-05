@@ -1,0 +1,105 @@
+* {
+    /*this is the selector for everything in the document, universal*/
+}
+.post button:active {
+    background-color:purple;
+    /*makes the button a certain color while clicking it*/
+}
+h1,h2{
+    color:#1d3557;
+}
+
+body {
+    background-color: #f1faee;
+}
+button {
+    font-size: 30px;
+    background-color: #a8dadc;
+}
+#signup{
+    background-color: #1d3557;
+    color: #f1faee
+}
+span{
+    color: #457b9d
+}
+.indicators {
+background-color: #e63946;
+color:#f1faee;
+font-size:16px;
+}
+.post a{
+    color:#457b9d;
+}
+footer a {
+    color:#e63946;
+}
+h2+button {
+    
+}
+footer>a{
+    color:deepskyblue;
+}
+input[type="password"] {
+
+    color:greenyellow;
+}
+section[class="post"]{
+    background-color:teal;
+}
+a[href*="google"]{
+    color:magenta;
+}
+a:hover{
+    color:orange;
+    text-decoration:underline;
+}
+.post button:hover{
+    background-color:lightgrey;
+}
+.post:nth-of-type(2n){
+    background-color: #dfe8dc;
+}
+h2::first-letter{
+    font-size:50px;
+}
+p::first-line{
+    color:black;
+}
+p::selection {
+    background-color: yellow;
+    /*changes the color of text inside of p while it is highlighted/selected*/
+}
+a::before {
+    content:"♥";
+    /*puts a heart before all links*/
+}
+a::after{
+    content:"😊";
+}
+
+button:hover {
+    background-color:olive;
+    font-size: 10px;
+}
+
+/*certain elements are inheritable and certain others are not.*/
+/*color:inherit will pull from the nearest property of the parent*/
+/* id class element|id=1 class=0 element=0 100 value| id=0 class=0
+element=2 value of 2, however numbers over 10 do not get bumped
+up to the next level, they only increase the category that theyre in
+10 elements !=1 class*/
+/*section p wins out over p: id>class>element*/
+/*whichever selector is more specific will be the one that is shown*/
+/*whichever style sheet is linked last will be shown*/
+/*h1 color red>h1 color purple, purple will be shown*/
+/*first letter requires 2 semicolons*/
+/*3rd of the post classes, 3n makes it every 3rd*/
+/*a[href$=".org"]{} means, a elements with an href ending in .org*/
+/*a[class~="logo"]{}means, elements whose class attribute contains the word logo*/
+/*specific type of attribute use []*/
+/*can also do span a */
+/* period goes in front of class name*/
+/* # goes in front of an id*/
+/*adjacent use + between elements*/
+/*direct child, select only the x that is a direct child of y y>x*/

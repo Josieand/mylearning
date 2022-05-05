@@ -1,0 +1,17 @@
+section{
+    width: 80%;
+    height:800px;
+    background-image: url("https://images.unsplash.com/photo-1651663421582-cc55080b2ad8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+    background-size:577px 865px;
+    background-repeat:no-repeat;
+    background-position:left;
+    margin: 0 auto;
+    /*background position/size*/
+    
+}
+
+h1 {
+    font-size:100px;
+    color:white;
+
+}

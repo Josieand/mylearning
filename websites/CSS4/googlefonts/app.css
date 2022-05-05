@@ -1,0 +1,24 @@
+h1{
+    font-family: 'PT Serif', serif;
+    font-weight:400;
+    margin-bottom: 0;
+}
+
+h2{
+    font-family: 'PT Serif', serif;
+    font-weight:400;
+}
+
+body{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight:100;
+}
+
+main{
+    width:60%;
+    margin:0 auto;
+}
+
+h1 + h2 {
+    margin-top: 10px;
+}
